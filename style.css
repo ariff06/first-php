@@ -1,0 +1,64 @@
+body {
+    text-align: center; /* Mengatur teks ke tengah secara horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Untuk mengisi seluruh tinggi layar */
+    background-image: url(https://media.giphy.com/media/l3vRfp3dlLgkeWBqg/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    border-radius: 2rem;
+    padding: 20px;
+}
+
+
+/* Style the heading */
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+/* Style the paragraph */
+p {
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+/* Style the list items */
+ul, ol {
+    list-style-position: inside; /* Untuk mengatur posisi marker */
+    color: rgb(255, 255, 255);
+}
+
+li {
+    font-weight: bold;
+    text-align: left; /* Untuk mengatur teks dalam list menjadi rata kiri */
+    color: rgb(255, 255, 255);
+}
+
+/* Style the link in the list */
+ul li a {
+    color: green;
+    color: rgb(255, 255, 255);
+}
+
+/* Efek hover untuk tombol Form sign Up */
+a {
+text-decoration: none; /* Menghapus garis bawah default pada tautan */
+color: rgb(255, 255, 255);
+
+}
+
+a:hover {
+text-decoration: underline; /* Menambahkan garis bawah saat tautan dihover */
+}
+
+a:hover {
+color: rgb(20, 142, 241);
+}
